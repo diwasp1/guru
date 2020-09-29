@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Category</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha512-rO2SXEKBSICa/AfyhEK5ZqWFCOok1rcgPYfGOqtX35OyiraBg6Xa4NnBJwXgpIRoXeWjcAmcQniMhp22htDc6g=="
+      crossorigin="anonymous"
+    />
+
+    <link
+         rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" 
+        crossorigin="anonymous" 
+    />
+
+    <link 
+        rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" 
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" 
+        crossorigin="anonymous" 
+    />
+
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="top_color"></div>
+      <div class="topbar">
+        <div class="logo_container">
+          <img src="assets/images/logo.png" alt="" />
+        </div>
+        <div class="topbar_links_container">
+          <div class="topbar_links">
+            <div class="icon_container">
+              <i class="fas fa-home"></i>
+            </div>
+            <div class="text_container">
+              <div class="header">Visit Us</div>
+              <div class="text">New Baneshwor, Ktm</div>
+            </div>
+          </div>
+          <div class="topbar_links">
+            <div class="icon_container">
+              <i class="fas fa-phone-alt"></i>
+            </div>
+            <div class="text_container">
+              <div class="header">Call Us</div>
+              <div class="text">+977-01-45367283</div>
+            </div>
+          </div>
+          <div class="topbar_links">
+            <div class="icon_container">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="text_container">
+              <div class="header">Email Us</div>
+              <div class="text">biz@dellservicenepal.com</div>
+            </div>
+          </div>
+        </div>
+        <div class="topbar_btn">
+          <a href="" data-toggle="modal" data-target="#top_btn"> Get Quote </a>
+        </div>
+        <div class="menu_burger">
+          <a onclick="openNav()"><i class="fas fa-bars"></i></a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="top_btn"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="modal_header">
+              <div class="text">Let's talk</div>
+              <div class="para">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Reiciendis dolores excepturi unde id
+              </div>
+            </div>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form action="">
+              <div class="form-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Contact Full Name"
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="number"
+                  class="form-control"
+                  placeholder="Contact Phone"
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Contact Email"
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Select Service you want"
+                />
+              </div>
+              <div class="form-group">
+                <textarea
+                  name=""
+                  class="form-control"
+                  id=""
+                  cols="30"
+                  rows="3"
+                  placeholder="Your Message ..."
+                ></textarea>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <div class="modal_btn">
+              <a href="">
+                <i class="far fa-paper-plane"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <nav>
+      <div class="navbar_container">
+        <div class="navigation_links">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Accessories</a></li>
+            <li><a href="">Support</a></li>
+            <li><a href="">News</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </div>
+        <div class="social_links">
+          <ul>
+            <li>
+              <a href=""><i class="fab fa-linkedin"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fab fa-facebook-square"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fab fa-twitter-square"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fab fa-instagram"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+      <a href="#">Home</a>
+      <a href="#">About us</a>
+      <a href="#">Services</a>
+      <a href="#">Accessories</a>
+      <a href="#">Support</a>
+      <a href="">News</a>
+      <a href="">Contact</a>
+    </div>
+
+    <main class="category">
+        <section class="category_banner_container">
+            <div class="category_header">
+                <div class="header">
+                    Dell laptop repair
+                </div>
+                <div class="sub_header">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis quam evenlorem.
+                </div>
+               
+            </div> 
+              <div class="search-container">
+                  <div class="category-bread">
+                      <ul>
+                          <li><a href="">Home /</a></li>
+                          <li><a href="">Service /</a></li>
+                          <li><a  class="active" href="">Laptop Repair</a> </li>
+                      </ul>
+                  </div>
+                  <div class="search">
+                    <input type="search" placeholder="Search your products...">
+                  </div>
+                  
+                </div>
+           
+            <div class="index_banner_background_image"></div>   
+            
+        </section>
+
+        <section class="category_products">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="products">
+                        <div class="image-coantainer">
+                            <img class="img-fluid" src="assets/images/dell@2x.png" alt="">
+                        </div>
+                        <div class="header">
+                            Dell Inspiron 15
+                        </div>
+                        <div class="para">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolor cum, odit iure officiis veniam magnam a neque!
+                             Vel, ipsum. Ut fugit officia amet doloremque laudantium velit quos earum molestiae?
+                        </div>
+                        <div class="product-btn">
+                            <a href=""> >< </a>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-md-4">
+                    <div class="products">
+                        <div class="image-coantainer">
+                            <img class="img-fluid" src="assets/images/dell@2x.png" alt="">
+                        </div>
+                        <div class="header">
+                            Dell Inspiron 15
+                        </div>
+                        <div class="para">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolor cum, odit iure officiis veniam magnam a neque!
+                             Vel, ipsum. Ut fugit officia amet doloremque laudantium velit quos earum molestiae?
+                        </div>
+                        <div class="product-btn">
+                            <a href="">><</a>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-md-4">
+                    <div class="products">
+                        <div class="image-coantainer">
+                            <img class="img-fluid" src="assets/images/dell@2x.png" alt="">
+                        </div>
+                        <div class="header">
+                            Dell Inspiron 15
+                        </div>
+                        <div class="para">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolor cum, odit iure officiis veniam magnam a neque!
+                             Vel, ipsum. Ut fugit officia amet doloremque laudantium velit quos earum molestiae?
+                        </div>
+                        <div class="product-btn">
+                            <a href="">><</a>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-md-4">
+                    <div class="products">
+                        <div class="image-coantainer">
+                            <img class="img-fluid" src="assets/images/dell@2x.png" alt="">
+                        </div>
+                        <div class="header">
+                            Dell Inspiron 15
+                        </div>
+                        <div class="para">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolor cum, odit iure officiis veniam magnam a neque!
+                             Vel, ipsum. Ut fugit officia amet doloremque laudantium velit quos earum molestiae?
+                        </div>
+                        <div class="product-btn">
+                            <a href="">><</a>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-md-4">
+                    <div class="products">
+                        <div class="image-coantainer">
+                            <img class="img-fluid" src="assets/images/dell@2x.png" alt="">
+                        </div>
+                        <div class="header">
+                            Dell Inspiron 15
+                        </div>
+                        <div class="para">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolor cum, odit iure officiis veniam magnam a neque!
+                             Vel, ipsum. Ut fugit officia amet doloremque laudantium velit quos earum molestiae?
+                        </div>
+                        <div class="product-btn">
+                            <a href="">><</a>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-md-4">
+                    <div class="products">
+                        <div class="image-coantainer">
+                            <img class="img-fluid" src="assets/images/dell@2x.png" alt="">
+                        </div>
+                        <div class="header">
+                            Dell Inspiron 15
+                        </div>
+                        <div class="para">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolor cum, odit iure officiis veniam magnam a neque!
+                             Vel, ipsum. Ut fugit officia amet doloremque laudantium velit quos earum molestiae?
+                        </div>
+                        <div class="product-btn">
+                            <a href="">><</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+             <div class="product_btn">
+               <a href=""><i class="fas fa-sync-alt"></i> Load More...</a> 
+            </div>
+
+        </section>
+
+
+        <section class="product_banner_container">
+            <div class="product_header">
+                <div class="top_btn">
+                    <a href="">Products</a>
+                </div>
+                <div class="header">
+                    100% genuine parts with warenty
+                </div>
+                <div class="sub_header">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis quam even.
+                </div>
+            </div> 
+            <div class="index_banner_background_image"></div>   
+            
+        </section>
+
+        <section class="products_container">
+            <div class="row">
+                <div class=" col-sm-6 col-md-4 col-lg-3">
+                    <a href="">
+                        <div class="product_1">
+                            <div class="image_container">
+                                <img src="assets/images/p1.png" class="img-fluid" alt="">
+                            </div>
+                            <div class="text">
+                                PROCESSOR (CPU)
+                            </div>
+                        </div>
+                    </a>   
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <a href="">
+                        <div class="product_1">
+                            <div class="image_container">
+                                <img src="assets/images/p2.png" class="img-fluid" alt="">
+                            </div>
+                            <div class="text">
+                                RAM
+                            </div>
+                        </div>
+                    </a>  
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <a href="">
+                        <div class="product_1">
+                            <div class="image_container">
+                                <img src="assets/images/p1.png" class="img-fluid" alt="">
+                            </div>
+                            <div class="text">
+                                Hard Drive
+                            </div>
+                        </div>
+                    </a>  
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <a href="">
+                        <div class="product_1"> 
+                            <div class="image_container">
+                                <img src="assets/images/p4.png" class="img-fluid" alt="">
+                            </div>
+                            <div class="text">
+                                Solid State Drive 
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <a href="">
+                        <div class="product_1">
+                            <div class="image_container">
+                                <img src="assets/images/p6.png" class="img-fluid" alt="">
+                            </div>
+                            <div class="text">
+                                Internal Speaker
+                            </div>
+                        </div>
+                    </a>  
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <a href="">
+                        <div class="product_1">
+                            <div class="image_container">
+                                <img src="assets/images/p3.png" class="img-fluid" alt="">
+                            </div>
+                            <div class="text">
+                                Touchpad 
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <a href="">
+                        <div class="product_1">
+                            <div class="image_container">
+                                <img src="assets/images/p7.png" class="img-fluid" alt="">
+                            </div>
+                            <div class="text">
+                                Battery 
+                            </div>
+                        </div>
+                    </a> 
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <a href="">
+                        <div class="product_1">
+                            <div class="image_container">
+                                <img src="assets/images/p5.png" class="img-fluid" alt="">
+                            </div>
+                            <div class="text">
+                                Screen
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="product_btn">
+               <a href=""><i class="far fa-comment-dots"></i> enquire for required parts</a> 
+            </div>
+        </section>
+    </main>
+
+
+
+
+    <footer>
+        <div class="footer-main">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="footer-block">
+                            <div class="title">
+                                about us
+                            </div>
+                            <div class="content">
+                                <div class="logo">
+                                    <a href="">
+                                        <img src="assets/images/logo.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="info">
+                                    <ul>
+                                        <li><i class="fas fa-home"></i>  New Baneshwor, Kathmandu Nepal</li>
+                                        <li><i class="fas fa-phone-alt"></i>+977-01-45367283</li>
+                                        <li><i class="fas fa-envelope"></i>info@guru.com</li>
+                                    </ul>
+                                </div>
+                                <div class="top-links">
+                                    <ul >
+                                     <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                                     <li><a href=""><i class="fab fa-pinterest"></i></i></a></li>
+                                     <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="footer-block">
+                            <div class="title">
+                                Links
+                            </div>
+                            <div class="content">
+                               <ul class="links">
+                                   <li><a href="">About Us</a></li>
+                                   <li><a href="">service</a></li>
+                                   <li><a href="">Accessories</a></li>
+                                   <li><a href="">Support</a></li>
+                                   <li><a href="">News</a></li>
+                                   <li><a href="">Contact</a></li>
+                               </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="footer-block">
+                            <div class="title">
+                                Support
+                            </div>
+                            <div class="content">
+                               <ul class="links">
+                                   <li><a href="">My account</a></li>
+                                   <li><a href="">design guide</a></li>
+                                   <li><a href="">FAQ</a></li>
+                                   <li><a href="">Design Services</a></li>
+                                   <li><a href="">Term of service</a></li>
+                                   <li><a href="">privacy policy</a></li>
+                               </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="footer-block">
+                            <div class="title">
+                                other info
+                            </div>
+                            <div class="content">
+                                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi non, eligendi nemo laudantium nostrum, ullam enim delectus
+                                  tempora illum et debitis modi! Temporibus, vel. Eaque est corrupti atque distinctio iure?
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="copyright">
+                            Copyright &copy; 2020 <a href="">www.dellservicenepal.com</a> . All Right Reserved
+                        </div>
+                        
+                    </div>
+                    <div class="col-md-4">
+                        <div class="developby">
+                            Developed by <a href="">An4Soft</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a id="button"><i class="fas fa-chevron-up"></i></a>
+    </footer>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha512-I5TkutApDjnWuX+smLIPZNhw+LhTd8WrQhdCKsxCFRSvhFx2km8ZfEpNIhF9nq04msHhOkE8BMOBj5QE07yhMA==" crossorigin="anonymous"></script>
+  
+    <script src="assets/js/app.js" defer></script>
+  </body>
+</html>
