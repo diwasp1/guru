@@ -162,6 +162,9 @@ nav {
     .navigation_links {
       ul {
         display: flex;
+        li{
+          padding: 10px 0px;
+        }
         a {
           padding: 0px 15px;
           border-right: 1px double #5678bc;
@@ -184,6 +187,7 @@ nav {
         display: flex;
         align-items: center;
         li {
+          padding: 10px 0px;
           a {
             color: #ffffff;
             padding-left: 15px;

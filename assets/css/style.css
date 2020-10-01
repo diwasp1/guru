@@ -177,6 +177,10 @@ nav .navbar_container .navigation_links ul {
   display: flex;
 }
 
+nav .navbar_container .navigation_links ul li {
+  padding: 10px 0px;
+}
+
 nav .navbar_container .navigation_links ul a {
   padding: 0px 15px;
   border-right: 1px double #5678bc;
@@ -201,6 +205,10 @@ nav .navbar_container .social_links ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+nav .navbar_container .social_links ul li {
+  padding: 10px 0px;
 }
 
 nav .navbar_container .social_links ul li a {
