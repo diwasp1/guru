@@ -91,6 +91,12 @@ header .topbar .topbar_btn a {
   color: #43c3ea;
   padding: 8px 25px;
   border-radius: 5px;
+  font-weight: 500;
+}
+
+header .topbar .topbar_btn a:hover {
+  background-color: #43c3ea;
+  color: #fff;
 }
 
 header .topbar .menu_burger {
@@ -159,6 +165,7 @@ nav .navbar_container {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  line-height: 60px;
   margin: 0px 30px;
 }
 
@@ -172,8 +179,13 @@ nav .navbar_container .navigation_links ul a {
   padding: 0px 15px;
   border-right: 1px double #5678bc;
   color: #43c3ea;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 60px;
+  font-weight: 600;
+}
+
+nav .navbar_container .navigation_links ul a:hover {
+  color: #fff;
 }
 
 nav .navbar_container .navigation_links ul .active {
@@ -194,6 +206,19 @@ nav .navbar_container .social_links ul li a {
   color: #ffffff;
   padding-left: 15px;
   font-size: 25px;
+}
+
+nav .navbar_container .social_links ul li a:hover {
+  color: #43c3ea;
+}
+
+nav .navbar_container .social_links ul .search {
+  background-color: #ff7700;
+  margin-left: 15px;
+}
+
+nav .navbar_container .social_links ul .search a {
+  padding: 0px 15px;
 }
 
 /* The side navigation menu */
@@ -780,6 +805,11 @@ footer #button.show {
   padding: 10px 20px;
 }
 
+.index .products_container .product_btn a:hover {
+  background-color: #43c3ea;
+  color: #fff;
+}
+
 .index .about_container .about_banner_container {
   color: white;
   position: relative;
@@ -1012,11 +1042,20 @@ footer #button.show {
 }
 
 .category .category_banner_container .search-container {
-  text-align: right;
   position: relative;
   z-index: 3;
   padding-bottom: 40px;
   margin-right: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 
 .category .category_banner_container .search-container .category-bread {
@@ -1027,9 +1066,6 @@ footer #button.show {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
 }
 
 .category .category_banner_container .search-container .category-bread ul li {
@@ -1052,6 +1088,10 @@ footer #button.show {
   color: #142340;
   background-color: #f0eded99;
   font-size: 18px;
+}
+
+.category .category_banner_container .search-container .search input:focus {
+  outline: none;
 }
 
 .category .category_banner_container .index_banner_background_gradient {
@@ -1106,14 +1146,17 @@ footer #button.show {
 
 .category .category_products .products .product-btn {
   text-align: right;
-  margin-top: 80px;
+  margin-top: 40px;
 }
 
 .category .category_products .products .product-btn a {
-  border: 1px solid black;
   background-color: #333333;
   color: white;
   padding: 10px 15px;
+}
+
+.category .category_products .products .product-btn a:hover {
+  background-color: #ff7700;
 }
 
 .category .category_products .product_btn {
@@ -1127,6 +1170,11 @@ footer #button.show {
   border: 1px solid #43c3ea;
   border-radius: 5px;
   padding: 10px 100px;
+}
+
+.category .category_products .product_btn a:hover {
+  background-color: #43c3ea;
+  color: #fff;
 }
 
 .category .product_banner_container {
@@ -1226,5 +1274,10 @@ footer #button.show {
   border: 1px solid #43c3ea;
   border-radius: 5px;
   padding: 10px 20px;
+}
+
+.category .products_container .product_btn a:hover {
+  background-color: #43c3ea;
+  color: #fff;
 }
 /*# sourceMappingURL=style.css.map */

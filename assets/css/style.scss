@@ -88,6 +88,11 @@ header {
         color: #43c3ea;
         padding: 8px 25px;
         border-radius: 5px;
+        font-weight: 500;
+      }
+      a:hover{
+        background-color: #43c3ea;
+        color: #fff;
       }
     }
     .menu_burger {
@@ -152,7 +157,7 @@ nav {
   .navbar_container {
     display: flex;
     justify-content: space-between;
-    // line-height: 60px;
+    line-height: 60px;
     margin: 0px 30px;
     .navigation_links {
       ul {
@@ -161,14 +166,14 @@ nav {
           padding: 0px 15px;
           border-right: 1px double #5678bc;
           color: #43c3ea;
-          font-size: 16px;
+          font-size: 14px;
           line-height: 60px;
+          font-weight: 600;
         }
-        // li:nth-child(1) {
-        //   a {
-        //     padding-left: 0px;
-        //   }
-        // }
+        a:hover{
+          color: #fff;
+        }
+
         .active {
           background-color: #43c3ea;
           
@@ -186,6 +191,16 @@ nav {
             color: #ffffff;
             padding-left: 15px;
             font-size: 25px;
+          }
+          a:hover{
+            color: #43c3ea;
+          }
+        }
+        .search{
+          background-color: #ff7700;
+          margin-left:15px;
+          a{
+            padding: 0px 15px;
           }
         }
       }
@@ -763,6 +778,10 @@ footer {
         border-radius: 5px;
         padding: 10px 20px;
       }
+       a:hover{
+        background-color: #43c3ea;
+        color: #fff;
+      }
     }
   }
 
@@ -983,16 +1002,18 @@ footer {
       }
     }
     .search-container {
-      text-align: right;
       position: relative;
       z-index: 3;
       padding-bottom: 40px;
       margin-right: 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+
       .category-bread {
         margin-bottom: 20px;
         ul {
           display: flex;
-          justify-content: end;
 
           li {
             margin-left: 10px;
@@ -1014,6 +1035,9 @@ footer {
           color: #142340;
           background-color: #f0eded99;
           font-size: 18px;
+        }
+        input:focus{
+          outline: none;
         }
       }
     }
@@ -1069,12 +1093,14 @@ footer {
       }
       .product-btn {
         text-align: right;
-        margin-top: 80px;
+        margin-top: 40px;
         a {
-          border: 1px solid black;
           background-color: #333333;
           color: white;
           padding: 10px 15px;
+        }
+        a:hover{
+          background-color: #ff7700;
         }
       }
     }
@@ -1087,6 +1113,10 @@ footer {
         border: 1px solid #43c3ea;
         border-radius: 5px;
         padding: 10px 100px;
+      }
+      a:hover{
+        background-color: #43c3ea;
+        color: #fff;
       }
     }
   }
@@ -1182,6 +1212,10 @@ footer {
         border: 1px solid #43c3ea;
         border-radius: 5px;
         padding: 10px 20px;
+      }
+       a:hover{
+        background-color: #43c3ea;
+        color: #fff;
       }
     }
   }
