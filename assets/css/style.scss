@@ -157,7 +157,7 @@ nav {
   .navbar_container {
     display: flex;
     justify-content: space-between;
-    line-height: 50px;
+    align-items: center;
     margin: 0px 30px;
     .navigation_links {
       ul {
@@ -167,7 +167,6 @@ nav {
           border-right: 1px double #5678bc;
           color: #43c3ea;
           font-size: 14px;
-          line-height: 50px;
           font-weight: 600;
         }
         a:hover {
@@ -176,21 +175,19 @@ nav {
 
         .active {
           background-color: #43c3ea;
-
-          a {
-            color: white;
-          }
+          color: white;
         }
       }
     }
     .social_links {
       ul {
         display: flex;
+        align-items: center;
         li {
           a {
             color: #ffffff;
             padding-left: 15px;
-            font-size: 25px;
+            font-size: 20px;
           }
           a:hover {
             color: #43c3ea;
@@ -201,6 +198,7 @@ nav {
           margin-left: 15px;
           a {
             padding: 0px 15px;
+            font-size: 20px;
           }
         }
       }
