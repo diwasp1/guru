@@ -303,6 +303,17 @@ nav .navbar_container .social_links ul .search a {
   }
 }
 
+.owl-nav {
+  text-align: center;
+}
+
+.owl-nav .owl-next span,
+.owl-nav .owl-prev span {
+  font-size: 20px;
+  color: #1a1a1a;
+  padding: 3px !important;
+}
+
 footer .footer-main {
   padding: 35px 30px;
   background-color: #054a6a;
