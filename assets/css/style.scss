@@ -288,18 +288,19 @@ nav {
 
 //owl carousel
 
-.owl-nav{
+.owl-nav {
+  text-align: center;
+  .owl-next,
+  .owl-prev {
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
     text-align: center;
-    .owl-next,
-    .owl-prev {
-
-        span{
-            font-size: 20px;
-            color: #1a1a1a;
-            padding: 3px !important;
-        }
-
-    }
+    line-height: 34px;
+    -webkit-box-shadow: 0 0px 5px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0px 5px 0 rgba(0, 0, 0, 0.1);
+    margin-right: 15px;
+  }
 }
 
 footer {
@@ -1077,11 +1078,11 @@ footer {
       padding-bottom: 10px;
 
       a:hover {
-        .header{
+        .header {
           color: #ff7700;
         }
-        .product-btn{
-          span{
+        .product-btn {
+          span {
             background-color: #ff7700;
           }
         }
