@@ -165,7 +165,7 @@ nav .navbar_container {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  line-height: 60px;
+  line-height: 50px;
   margin: 0px 30px;
 }
 
@@ -180,7 +180,7 @@ nav .navbar_container .navigation_links ul a {
   border-right: 1px double #5678bc;
   color: #43c3ea;
   font-size: 14px;
-  line-height: 60px;
+  line-height: 50px;
   font-weight: 600;
 }
 
@@ -304,7 +304,7 @@ nav .navbar_container .social_links ul .search a {
 }
 
 footer .footer-main {
-  padding: 35px 0px;
+  padding: 35px 30px;
   background-color: #054a6a;
   color: #ffffff;
 }
@@ -1127,6 +1127,14 @@ footer #button.show {
   padding-bottom: 10px;
 }
 
+.category .category_products .products a:hover .header {
+  color: #ff7700;
+}
+
+.category .category_products .products a:hover .product-btn span {
+  background-color: #ff7700;
+}
+
 .category .category_products .products .image_container img {
   width: 100%;
 }
@@ -1149,14 +1157,10 @@ footer #button.show {
   margin-top: 40px;
 }
 
-.category .category_products .products .product-btn a {
+.category .category_products .products .product-btn span {
   background-color: #333333;
   color: white;
   padding: 10px 15px;
-}
-
-.category .category_products .products .product-btn a:hover {
-  background-color: #ff7700;
 }
 
 .category .category_products .product_btn {
