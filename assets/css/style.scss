@@ -152,7 +152,7 @@ nav {
   .navbar_container {
     display: flex;
     justify-content: space-between;
-    line-height: 60px;
+    // line-height: 60px;
     margin: 0px 30px;
     .navigation_links {
       ul {
@@ -162,10 +162,18 @@ nav {
           border-right: 1px double #5678bc;
           color: #43c3ea;
           font-size: 16px;
+          line-height: 60px;
         }
-        li:nth-child(1) {
-          a {
-            padding-left: 0px;
+        // li:nth-child(1) {
+        //   a {
+        //     padding-left: 0px;
+        //   }
+        // }
+        .active {
+          background-color: #43c3ea;
+          
+          a{
+            color: white;
           }
         }
       }

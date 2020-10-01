@@ -24,3 +24,22 @@ btn.on('click', function(e) {
   e.preventDefault();
   $('html, body').animate({scrollTop:0}, '300');
 });
+
+
+//navbar link active
+
+let navLinks = document.querySelector(".navigation_links");
+let navBtn = navLinks.getElementsByClassName("nav_btn");
+
+console.log(navBtn.length);
+
+for(i=0; i < navBtn.length; i++){
+
+    navBtn[i].addEventListener('click',function(e){
+      
+        let current = document.querySelector(".active");
+        current.className = current.className.replace(" active", " ");
+        this.className += " active";
+    });
+
+}
