@@ -723,6 +723,7 @@ footer #button.show {
   margin: 20px 0px 10px 0px;
   color: #2e2751;
   font-weight: bold;
+  text-transform: uppercase;
 }
 
 .index .services_container .services_header .sub_header {
@@ -1348,5 +1349,579 @@ footer #button.show {
 .category .products_container .product_btn a:hover {
   background-color: #43c3ea;
   color: #fff;
+}
+
+.service_detail .service_banner_container {
+  position: relative;
+  height: 77vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.service_detail .service_banner_container .service_header {
+  text-align: center;
+  position: relative;
+  z-index: 3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+.service_detail .service_banner_container .service_header .header {
+  font-size: 45px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.service_detail .service_banner_container .service_header .sub_header {
+  color: #7cdbf8;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.service_detail .service_banner_container .service_header .btn a {
+  background-color: #ff7700;
+  color: #ffffff;
+  padding: 10px 20px;
+  display: inline-block;
+  text-transform: capitalize;
+  font-size: 18px;
+  margin-top: 30px;
+  border-radius: 5px;
+}
+
+.service_detail .service_banner_container .service_header .btn a i {
+  margin-left: 10px;
+}
+
+.service_detail .service_banner_container .service_header .service-bread {
+  margin-top: 20px;
+}
+
+.service_detail .service_banner_container .service_header .service-bread ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.service_detail .service_banner_container .service_header .service-bread ul li {
+  margin-left: 5px;
+}
+
+.service_detail .service_banner_container .service_header .service-bread ul li a {
+  color: #fff;
+  cursor: pointer;
+}
+
+.service_detail .service_banner_container .service_header .service-bread ul li a i {
+  margin-left: 5px;
+}
+
+.service_detail .service_banner_container .service_header .service-bread ul li .active {
+  color: #43c3ea;
+}
+
+.service_detail .service_banner_container .service_banner_background_gradient {
+  background: -webkit-gradient(linear, left top, right top, from(#2d3954), color-stop(85%, rgba(39, 16, 102, 0)), color-stop(0, rgba(39, 16, 102, 0)), to(#2d3954));
+  background: linear-gradient(90deg, #2d3954, rgba(39, 16, 102, 0) 85%, rgba(39, 16, 102, 0) 0, #2d3954);
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+.service_detail .service_banner_container .service_banner_background_image {
+  background-image: url(../images/product.png);
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-size: cover;
+  z-index: 1;
+}
+
+.service_detail .overview_container {
+  margin: 60px 30px;
+}
+
+.service_detail .overview_container .overview .header {
+  font-size: 25px;
+  color: #2e2751;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.service_detail .overview_container .overview .text {
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+.service_detail .overview_container .overview .sub_header {
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  color: #2e2751;
+}
+
+.service_detail .overview_container .overview .key_list {
+  margin-left: 20px;
+}
+
+.service_detail .overview_container .overview .key_list ul li {
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.service_detail .overview_container .overview .key_list ul li i {
+  margin-right: 8px;
+}
+
+.service_detail .overview_container .review {
+  -webkit-box-shadow: 0 0 20px 0 rgba(62, 28, 131, 0.1);
+          box-shadow: 0 0 20px 0 rgba(62, 28, 131, 0.1);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.service_detail .overview_container .review .header {
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: #2e2751;
+}
+
+.service_detail .overview_container .review .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.service_detail .overview_container .review .content .first {
+  margin-right: 20px;
+}
+
+.service_detail .overview_container .review .content .first .rating_no {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fe7d0c;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 9px;
+}
+
+.service_detail .overview_container .review .content .first .rating_no span {
+  display: block;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.service_detail .overview_container .review .content .first i {
+  color: #fe7d0c;
+  margin-top: 10px;
+  margin-right: 4px;
+  font-size: 14px;
+}
+
+.service_detail .overview_container .review .content .second {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.service_detail .overview_container .review .content .second .progress_container {
+  font-size: 13px;
+}
+
+.service_detail .overview_container .review .content .second .progress_container .progress {
+  width: 60px;
+  height: 9px;
+  margin: 8px 0px;
+}
+
+.service_detail .overview_container .review .content .second .progress_container .progress .progress-bar {
+  background-color: #fe7d0c;
+}
+
+.service_detail .overview_container .review_form {
+  -webkit-box-shadow: 0 0 20px 0 rgba(62, 28, 131, 0.1);
+          box-shadow: 0 0 20px 0 rgba(62, 28, 131, 0.1);
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #f5f7f8;
+}
+
+.service_detail .overview_container .review_form .star {
+  text-align: left;
+}
+
+.service_detail .overview_container .review_form .star i {
+  color: #fe7d0c;
+  margin-top: 10px;
+  margin-right: 4px;
+  font-size: 25px;
+}
+
+.service_detail .overview_container .review_form .star span {
+  color: #72ae26;
+  margin-left: 10px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.service_detail .overview_container .review_form .review_btn a {
+  text-transform: uppercase;
+  background-color: #72ae26;
+  font-size: 18px;
+  font-weight: 600;
+  display: block;
+  color: #ffffff;
+  padding: 10px;
+  margin-top: 30px;
+  border-radius: 5px;
+}
+
+.service_detail .process_container {
+  text-align: center;
+  padding: 70px 0px;
+  background-color: #f5f7f8;
+}
+
+.service_detail .process_container .process_header .top_btn a {
+  background-color: #72ae26;
+  padding: 3px 20px;
+  color: #ffffff;
+  border-radius: 20px;
+  text-transform: uppercase;
+}
+
+.service_detail .process_container .process_header .header {
+  font-size: 25px;
+  margin: 20px 0px 10px 0px;
+  color: #2e2751;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.service_detail .process_container .process_header .sub_header {
+  color: #2d2d2d;
+  margin-bottom: 60px;
+  padding: 0px 20px;
+}
+
+.service_detail .process_container .process_box_container .service_1 {
+  padding: 30px;
+  height: 390px;
+  text-align: -webkit-center;
+  text-align: -moz-center;
+  background-color: white;
+  -webkit-box-shadow: 0 0 20px 0 rgba(62, 28, 131, 0.1);
+          box-shadow: 0 0 20px 0 rgba(62, 28, 131, 0.1);
+  border-radius: 10px;
+  margin-bottom: 30px;
+  color: #2d2d2d;
+}
+
+.service_detail .process_container .process_box_container .service_1 .trips_icon {
+  color: #72ae26;
+  background: #ffffff;
+  width: 90px;
+  height: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+
+.service_detail .process_container .process_box_container .service_1 .trips_details .trips_details_header {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.3;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+.service_detail .services_container {
+  text-align: center;
+  padding: 70px 0px;
+}
+
+.service_detail .services_container .services_header .top_btn a {
+  background-color: #72ae26;
+  padding: 3px 20px;
+  color: #ffffff;
+  border-radius: 20px;
+  text-transform: uppercase;
+}
+
+.service_detail .services_container .services_header .header {
+  font-size: 25px;
+  margin: 20px 0px 10px 0px;
+  color: #2e2751;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.service_detail .services_container .services_header .sub_header {
+  color: #2d2d2d;
+  margin-bottom: 60px;
+  padding: 0px 20px;
+}
+
+.service_detail .services_container .services_box_container .service_1 {
+  text-align: -webkit-center;
+  text-align: -moz-center;
+  background-color: #f5f7f8;
+  color: #999999;
+  border: 1px solid #d9e3e8;
+  height: 280px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.service_detail .services_container .services_box_container .service_1 .trips_icon {
+  margin-bottom: 30px;
+}
+
+.service_detail .services_container .services_box_container .service_1 .trips_icon i {
+  font-size: 100px;
+  font-weight: 600;
+  color: #2e2751;
+}
+
+.service_detail .services_container .services_box_container .service_1 .trips_details .trips_details_header {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.3;
+  color: #2e2751;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+
+.service_detail .related_container {
+  text-align: center;
+  margin: 0px 30px;
+  padding: 70px 0px;
+}
+
+.service_detail .related_container .related_header .top_btn a {
+  background-color: #72ae26;
+  padding: 3px 40px;
+  color: #ffffff;
+  border-radius: 20px;
+  text-transform: uppercase;
+}
+
+.service_detail .related_container .related_header .header {
+  font-size: 25px;
+  margin: 20px 0px;
+  color: #2e2751;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.service_detail .related_container .product_1 {
+  overflow-x: hidden;
+  background-color: white;
+  -webkit-box-shadow: 0 0 20px 0 rgba(62, 28, 131, 0.1);
+          box-shadow: 0 0 20px 0 rgba(62, 28, 131, 0.1);
+  border-radius: 5px;
+  margin: 20px 0px 30px 0px;
+  height: 204px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.service_detail .related_container .product_1 .icon i {
+  color: #79b32f;
+  font-size: 100px;
+}
+
+.service_detail .related_container .product_1 .text {
+  text-align: center;
+  color: #034a6a;
+  font-size: 13px;
+  padding: 0px 3px;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+.service_detail .testimonial_container {
+  padding: 70px 0px;
+  background: #f7f7f7;
+}
+
+.service_detail .testimonial_container .testi_header {
+  text-align: center;
+}
+
+.service_detail .testimonial_container .testi_header .top_btn a {
+  background-color: #72ae26;
+  padding: 3px 20px;
+  color: #ffffff;
+  border-radius: 20px;
+  text-transform: uppercase;
+}
+
+.service_detail .testimonial_container .testi_header .header {
+  font-size: 25px;
+  margin: 20px 0px;
+  color: #2e2751;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.service_detail .testimonial_container .testimonial_box {
+  margin: 20px 30px;
+}
+
+.service_detail .testimonial_container .testimonial_box .para {
+  background-color: #ffffff;
+  padding: 20px;
+  text-align: justify;
+  -webkit-box-shadow: 0 0 20px 0 rgba(62, 28, 131, 0.1);
+          box-shadow: 0 0 20px 0 rgba(62, 28, 131, 0.1);
+  border-radius: 5px;
+  margin-bottom: 30px;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.service_detail .testimonial_container .testimonial_box .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.service_detail .testimonial_container .testimonial_box .info .image_container {
+  height: 74px;
+  width: 74px;
+  margin-right: 20px;
+}
+
+.service_detail .testimonial_container .testimonial_box .info .image_container img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.service_detail .testimonial_container .testimonial_box .info .text_container .name_1 {
+  color: #2e2751;
+  font-size: 17px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.service_detail .testimonial_container .testimonial_box .info .text_container .name_2 {
+  color: #2d2d2d;
+  font-size: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .service_detail .service_banner_container {
+    height: 60vh;
+  }
+  .service_detail .service_banner_container .service_header .header {
+    font-size: 30px;
+  }
+  .service_detail .service_banner_container .service_header .sub_header {
+    font-size: 20px;
+  }
+  .service_detail .service_banner_container .service_header .btn a {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .service_detail .service_banner_container .service_header .service-bread ul li a {
+    font-size: 14px;
+  }
+  .service_detail .overview_container .overview .header {
+    font-size: 20px;
+  }
+  .service_detail .overview_container .overview .text {
+    font-size: 14px;
+  }
+  .service_detail .overview_container .overview .sub_header {
+    font-size: 18px;
+  }
+  .service_detail .overview_container .overview .key_list ul li {
+    font-size: 14px;
+  }
+  .service_detail .overview_container .review {
+    margin-top: 20px;
+  }
+  .service_detail .overview_container .review .header {
+    font-size: 18px;
+  }
+  .service_detail .process_container .process_box_container .service_1 {
+    height: auto;
+  }
 }
 /*# sourceMappingURL=style.css.map */
