@@ -2309,6 +2309,11 @@ footer #button.show {
   padding-left: 0px;
 }
 
+.enquiry .enquiry_container .enquiry-faq-container .enquiry-faq .question button:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
 .enquiry .enquiry_container .enquiry-faq-container .enquiry-faq .question i {
   color: #8b8b8b;
 }

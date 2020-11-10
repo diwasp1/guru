@@ -2132,6 +2132,9 @@ footer {
             font-size: 15px;
             padding-left: 0px;
           }
+          button:focus {
+            box-shadow: none;
+          }
           i {
             color: #8b8b8b;
           }
