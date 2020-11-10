@@ -2060,7 +2060,7 @@ footer {
         padding: 15px 32px;
       }
       .form-group {
-        label{
+        label {
           text-transform: uppercase;
           font-size: 14px;
           font-weight: 500;
@@ -2108,35 +2108,37 @@ footer {
     }
     .enquiry-faq-container {
       margin-top: 140px;
-      .enquiry-header{
-        .faq_title{
+      .enquiry-header {
+        .faq_title {
           font-size: 24px;
           font-weight: 600;
           margin-bottom: 10px;
         }
-        .para{
+        .para {
           font-size: 15px;
           margin-bottom: 25px;
         }
       }
-      .enquiry-faq{
+      .enquiry-faq {
         border-bottom: 2px solid #8b8b8b;
         transition: all 0.3s linear;
-        margin-bottom: 20px;
-        .question{
+        margin-bottom: 15px;
+        .question {
           display: flex;
           justify-content: space-between;
           transition: all 0.3s linear;
-          font-weight: 600;
-          font-size: 14px;
-          margin-bottom: 8px;
-          i{
+          button {
+            font-weight: 700;
+            font-size: 15px;
+            padding-left: 0px;
+          }
+          i {
             color: #8b8b8b;
           }
         }
-        .answer{
-           font-size: 14px;
-          margin-bottom: 8px;
+        .answer {
+          font-size: 14px;
+          margin-bottom: 15px;
           color: #8b8b8b;
           transition: all 0.3s linear;
         }

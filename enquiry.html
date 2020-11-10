@@ -264,53 +264,86 @@
                     Please select a topic below related to your enquiry.
                   </div>
                 </div>
-                <div class="enquiry-faq">
-                  <div
-                    class="question"
-                    data-toggle="collapse"
-                    data-target="#collapseOne"
-                    aria-expanded="true"
-                  >
-                    <div>Book a Demo</div>
-                    <div>
-                      <i class="fas fa-greater-than"></i>
+
+                <div id="accordion">
+                  <div class="enquiry-faq">
+                    <div class="question" id="headingOne">
+                      <h5 class="mb-0">
+                        <button
+                          class="btn"
+                          data-toggle="collapse"
+                          data-target="#collapseOne"
+                          aria-expanded="true"
+                          aria-controls="collapseOne"
+                        >
+                          Book a Demo
+                        </button>
+                      </h5>
+                      <div><i class="fas fa-chevron-down"></i></div>
+                    </div>
+
+                    <div
+                      id="collapseOne"
+                      class="collapse show"
+                      aria-labelledby="headingOne"
+                      data-parent="#accordion"
+                    >
+                      <div class="answer">
+                        Request a demo from one of our conversion specialists.
+                      </div>
                     </div>
                   </div>
-                  <div class="answer collapse show" id="collapseOne">
-                    Request a demo from one of our conversion specialists.
-                  </div>
-                </div>
-                <div class="enquiry-faq">
-                  <div
-                    class="question"
-                    data-toggle="collapse"
-                    data-target="#collapsetwo"
-                    aria-expanded="true"
-                  >
-                    <div>Get Inspired</div>
-                    <div>
-                      <i class="fas fa-greater-than"></i>
+                  <div class="enquiry-faq">
+                    <div class="question" id="headingTwo">
+                      <h5 class="mb-0">
+                        <button
+                          class="btn collapsed"
+                          data-toggle="collapse"
+                          data-target="#collapseTwo"
+                          aria-expanded="false"
+                          aria-controls="collapseTwo"
+                        >
+                          Get Inspired
+                        </button>
+                      </h5>
+                      <div><i class="fas fa-chevron-down"></i></div>
+                    </div>
+                    <div
+                      id="collapseTwo"
+                      class="collapse"
+                      aria-labelledby="headingTwo"
+                      data-parent="#accordion"
+                    >
+                      <div class="answer">
+                        Request a demo from one of our conversion specialists.
+                      </div>
                     </div>
                   </div>
-                  <div class="answer collapse show" id="collapsetwo">
-                    Request a demo from one of our conversion specialists.
-                  </div>
-                </div>
-                <div class="enquiry-faq">
-                  <div
-                    class="question"
-                    data-toggle="collapse"
-                    data-target="#collapsethree"
-                    aria-expanded="true"
-                    aria-controls="collapsethree"
-                  >
-                    <div>Become a Partner</div>
-                    <div>
-                      <i class="fas fa-greater-than"></i>
+                  <div class="enquiry-faq">
+                    <div class="question" id="headingThree">
+                      <h5 class="mb-0">
+                        <button
+                          class="btn collapsed"
+                          data-toggle="collapse"
+                          data-target="#collapseThree"
+                          aria-expanded="false"
+                          aria-controls="collapseThree"
+                        >
+                          Become a Partner
+                        </button>
+                      </h5>
+                      <div><i class="fas fa-chevron-down"></i></div>
                     </div>
-                  </div>
-                  <div class="answer collapse show" id="collapsethree">
-                    Request a demo from one of our conversion specialists.
+                    <div
+                      id="collapseThree"
+                      class="collapse"
+                      aria-labelledby="headingThree"
+                      data-parent="#accordion"
+                    >
+                      <div class="answer">
+                        Request a demo from one of our conversion specialists.
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
