@@ -1964,12 +1964,19 @@ footer {
   }
   .contactus_container {
     background-color: #f4f8fa;
+    .map-container {
+      iframe {
+        box-shadow: 0px 0px 10px gray;
+        border-radius: 10px;
+      }
+    }
 
     .contact_container {
       margin: 40px 0;
       background: #ffffff;
       border-radius: 10px;
       box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.09);
+
       .contact_header {
         font-size: 20px;
         padding: 10px;
@@ -2017,10 +2024,9 @@ footer {
         .address {
           font-size: 15px;
           margin-bottom: 15px;
-
         }
-        i{
-          color: #43c3ea ;
+        i {
+          color: #43c3ea;
           padding-right: 5px;
         }
       }
