@@ -159,6 +159,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     margin: 0px 30px;
+    position: relative;
     .navigation_links {
       ul {
         display: flex;
@@ -205,6 +206,21 @@ nav {
             padding: 0px 15px;
             font-size: 20px;
           }
+        }
+        .search-bar {
+          position: absolute;
+          border-radius: 4px;
+          padding: 5px 10px;
+          margin-bottom: 5px;
+          margin-right: 5px;
+          border: 1px solid #ff7700;
+          display: none;
+          font-size: 14px;
+          top: 55px;
+          right: -7px;
+        }
+        .search-bar:focus {
+          outline: none;
         }
       }
     }

@@ -169,6 +169,7 @@ nav .navbar_container {
       -ms-flex-align: center;
           align-items: center;
   margin: 0px 30px;
+  position: relative;
 }
 
 nav .navbar_container .navigation_links ul {
@@ -230,6 +231,23 @@ nav .navbar_container .social_links ul .search {
 nav .navbar_container .social_links ul .search a {
   padding: 0px 15px;
   font-size: 20px;
+}
+
+nav .navbar_container .social_links ul .search-bar {
+  position: absolute;
+  border-radius: 4px;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  border: 1px solid #ff7700;
+  display: none;
+  font-size: 14px;
+  top: 55px;
+  right: -7px;
+}
+
+nav .navbar_container .social_links ul .search-bar:focus {
+  outline: none;
 }
 
 /* The side navigation menu */
