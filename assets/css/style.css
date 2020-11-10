@@ -2190,4 +2190,131 @@ footer #button.show {
   color: #43c3ea;
   padding-right: 5px;
 }
+
+.enquiry .enquiry_container {
+  background-color: #f4f8fa;
+}
+
+.enquiry .enquiry_container .contact_container {
+  margin: 40px 0;
+  background: #ffffff;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.09);
+          box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.09);
+}
+
+.enquiry .enquiry_container .contact_container .contact_header {
+  font-size: 20px;
+  padding: 10px;
+  padding-left: 30px;
+  margin-bottom: 10px;
+  color: #2d3954;
+  border-bottom: 1px solid #e7eff9;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.enquiry .enquiry_container .contact_container form {
+  padding: 15px 32px;
+}
+
+.enquiry .enquiry_container .contact_container .form-group label {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.enquiry .enquiry_container .contact_container .form-group .form-control {
+  height: 54px;
+  border-radius: 4px;
+  font-size: 14px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  padding: 8px 12px;
+  border: 1px solid #43c3ea;
+  background-clip: initial;
+}
+
+.enquiry .enquiry_container .contact_container .form-group .textarea {
+  height: 100px;
+}
+
+.enquiry .enquiry_container .contact_container .form-group .submit {
+  width: 100%;
+  background-color: #43c3ea;
+  color: #ffffff;
+  padding: 10px 12px;
+  margin-top: 16px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.enquiry .enquiry_container .contact_container .reachus_container {
+  padding: 15px 32px;
+}
+
+.enquiry .enquiry_container .contact_container .reachus_container .reachus_title {
+  font-size: 20px;
+  color: #2d3954;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+.enquiry .enquiry_container .contact_container .reachus_container .address {
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+.enquiry .enquiry_container .contact_container .reachus_container i {
+  color: #43c3ea;
+  padding-right: 5px;
+}
+
+.enquiry .enquiry_container .enquiry-faq-container {
+  margin-top: 140px;
+}
+
+.enquiry .enquiry_container .enquiry-faq-container .enquiry-header .faq_title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.enquiry .enquiry_container .enquiry-faq-container .enquiry-header .para {
+  font-size: 15px;
+  margin-bottom: 25px;
+}
+
+.enquiry .enquiry_container .enquiry-faq-container .enquiry-faq {
+  border-bottom: 2px solid #8b8b8b;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  margin-bottom: 20px;
+}
+
+.enquiry .enquiry_container .enquiry-faq-container .enquiry-faq .question {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.enquiry .enquiry_container .enquiry-faq-container .enquiry-faq .question i {
+  color: #8b8b8b;
+}
+
+.enquiry .enquiry_container .enquiry-faq-container .enquiry-faq .answer {
+  font-size: 14px;
+  margin-bottom: 8px;
+  color: #8b8b8b;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
 /*# sourceMappingURL=style.css.map */

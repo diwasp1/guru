@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Enquiry</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha512-rO2SXEKBSICa/AfyhEK5ZqWFCOok1rcgPYfGOqtX35OyiraBg6Xa4NnBJwXgpIRoXeWjcAmcQniMhp22htDc6g=="
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="top_color"></div>
+      <div class="topbar">
+        <div class="logo_container">
+          <img src="assets/images/logo.png" alt="" />
+        </div>
+        <div class="topbar_links_container">
+          <div class="topbar_links">
+            <div class="icon_container">
+              <i class="fas fa-home"></i>
+            </div>
+            <div class="text_container">
+              <div class="header">Visit Us</div>
+              <div class="text">New Baneshwor, Ktm</div>
+            </div>
+          </div>
+          <div class="topbar_links">
+            <div class="icon_container">
+              <i class="fas fa-phone-alt"></i>
+            </div>
+            <div class="text_container">
+              <div class="header">Call Us</div>
+              <div class="text">+977-01-45367283</div>
+            </div>
+          </div>
+          <div class="topbar_links">
+            <div class="icon_container">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="text_container">
+              <div class="header">Email Us</div>
+              <div class="text">biz@dellservicenepal.com</div>
+            </div>
+          </div>
+        </div>
+        <div class="topbar_btn">
+          <a href="" data-toggle="modal" data-target="#top_btn"> Get Quote </a>
+        </div>
+        <div class="menu_burger">
+          <a onclick="openNav()"><i class="fas fa-bars"></i></a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="top_btn"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="modal_header">
+              <div class="text">Let's talk</div>
+              <div class="para">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Reiciendis dolores excepturi unde id
+              </div>
+            </div>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form action="">
+              <div class="form-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Contact Full Name"
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="number"
+                  class="form-control"
+                  placeholder="Contact Phone"
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Contact Email"
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Select Service you want"
+                />
+              </div>
+              <div class="form-group">
+                <textarea
+                  name=""
+                  class="form-control"
+                  id=""
+                  cols="30"
+                  rows="3"
+                  placeholder="Your Message ..."
+                ></textarea>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <div class="modal_btn">
+              <a href="">
+                <i class="far fa-paper-plane"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <nav>
+      <div class="navbar_container">
+        <div class="navigation_links">
+          <ul>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="servicedetail.html">Services</a></li>
+            <li><a href="">Accessories</a></li>
+            <li><a href="category.html">Category</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="social_links">
+          <ul>
+            <li>
+              <a href=""><i class="fab fa-linkedin"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fab fa-facebook-square"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fab fa-twitter-square"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fab fa-instagram"></i></a>
+            </li>
+            <li class="search">
+              <a href=""><i class="fas fa-search"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+      <a href="index.html">Home</a>
+      <a href="#">About us</a>
+      <a href="servicedetail.html">Services</a>
+      <a href="#">Accessories</a>
+      <a href="category.html">Category</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact</a>
+    </div>
+
+    <main class="enquiry">
+      <section class="enquiry_container">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="contact_container">
+                <form>
+                  <div class="form-group">
+                    <label for="">Name</label>
+                    <input type="text" class="form-control" />
+                  </div>
+                  <div class="form-group">
+                    <label for="">Email</label>
+                    <input type="email" class="form-control" />
+                  </div>
+                  <div class="form-group">
+                    <label for="">Message</label>
+                    <input type="text" class="form-control" />
+                  </div>
+                  <div class="form-group">
+                    <label for="">Additional Details</label>
+                    <textarea class="form-control textarea"></textarea>
+                  </div>
+                  <div class="form-group">
+                    <button type="submit" class="btn submit">
+                      Send Message
+                    </button>
+                  </div>
+                </form>
+
+                <div class="reachus_container">
+                  <div class="reachus_title">Contact Information</div>
+                  <div class="address">
+                    <i class="fas fa-map-marker-alt"></i> New Baneshwor,
+                    Kathmandu Nepal
+                  </div>
+
+                  <div class="address">
+                    <i class="fas fa-envelope"></i> info@guru.com
+                  </div>
+
+                  <div class="address">
+                    <i class="fas fa-phone-alt"></i>+977-01-45367283
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="enquiry-faq-container">
+                <div class="enquiry-header">
+                  <div class="faq_title">How Can We Help?</div>
+                  <div class="para">
+                    Please select a topic below related to your enquiry.
+                  </div>
+                </div>
+                <div class="enquiry-faq">
+                  <div
+                    class="question"
+                    data-toggle="collapse"
+                    data-target="#collapseOne"
+                    aria-expanded="true"
+                  >
+                    <div>Book a Demo</div>
+                    <div>
+                      <i class="fas fa-greater-than"></i>
+                    </div>
+                  </div>
+                  <div class="answer collapse show" id="collapseOne">
+                    Request a demo from one of our conversion specialists.
+                  </div>
+                </div>
+                <div class="enquiry-faq">
+                  <div
+                    class="question"
+                    data-toggle="collapse"
+                    data-target="#collapsetwo"
+                    aria-expanded="true"
+                  >
+                    <div>Get Inspired</div>
+                    <div>
+                      <i class="fas fa-greater-than"></i>
+                    </div>
+                  </div>
+                  <div class="answer collapse show" id="collapsetwo">
+                    Request a demo from one of our conversion specialists.
+                  </div>
+                </div>
+                <div class="enquiry-faq">
+                  <div
+                    class="question"
+                    data-toggle="collapse"
+                    data-target="#collapsethree"
+                    aria-expanded="true"
+                    aria-controls="collapsethree"
+                  >
+                    <div>Become a Partner</div>
+                    <div>
+                      <i class="fas fa-greater-than"></i>
+                    </div>
+                  </div>
+                  <div class="answer collapse show" id="collapsethree">
+                    Request a demo from one of our conversion specialists.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-main">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="footer-block">
+              <div class="content">
+                <div class="logo">
+                  <a href="">
+                    <img src="assets/images/logo.png" alt="" />
+                  </a>
+                </div>
+                <div class="content">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Commodi non, eligendi nemo laudantium nostrum, ullam enim
+                  delectus tempora illum et debitis modi! Temporibus, vel. Eaque
+                  est corrupti atque distinctio iure?
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="footer-block">
+              <div class="title">Quick Links</div>
+              <div class="content">
+                <ul class="links">
+                  <li><a href="">About Us</a></li>
+                  <li><a href="">service</a></li>
+                  <li><a href="">Accessories</a></li>
+                  <li><a href="">Support</a></li>
+                  <li><a href="">News</a></li>
+                  <li><a href="">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="footer-block">
+              <div class="title">Recent news</div>
+              <div class="content">
+                <div class="recent-news rn-1">
+                  <div class="img-container">
+                    <img src="assets/images/bottom.png" alt="" />
+                  </div>
+                  <div class="text">
+                    <div>
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    </div>
+                    <div class="recent-btn">
+                      <a href="">Readmore</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="recent-news rn-2">
+                  <div class="img-container">
+                    <img src="assets/images/bottom.png" alt="" />
+                  </div>
+                  <div class="text">
+                    <div>
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    </div>
+                    <div class="recent-btn">
+                      <a href="">Readmore</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="footer-block">
+              <div class="title">contact info</div>
+
+              <div class="info">
+                <ul>
+                  <li><i class="fas fa-envelope"></i>info@guru.com</li>
+                  <li><i class="fas fa-phone-alt"></i>+977-01-45367283</li>
+
+                  <li>
+                    <i class="fas fa-home"></i> New Baneshwor, Kathmandu Nepal
+                  </li>
+                </ul>
+              </div>
+              <div class="top-links">
+                <ul>
+                  <li>
+                    <a href=""><i class="fab fa-linkedin"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i class="fab fa-facebook-square"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i class="fab fa-twitter-square"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="row">
+          <div class="col-md-8">
+            <div class="copyright">
+              &copy; 2020 All right reserved with
+              <a href="">www.dellservicenepal.com</a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="developby">Developed by <a href="">An4Soft</a></div>
+          </div>
+        </div>
+      </div>
+      <a id="button"><i class="fas fa-chevron-up"></i></a>
+    </footer>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+      integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha512-I5TkutApDjnWuX+smLIPZNhw+LhTd8WrQhdCKsxCFRSvhFx2km8ZfEpNIhF9nq04msHhOkE8BMOBj5QE07yhMA=="
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="assets/js/app.js" defer></script>
+  </body>
+</html>

@@ -2033,3 +2033,114 @@ footer {
     }
   }
 }
+
+//enquiry
+
+.enquiry {
+  .enquiry_container {
+    background-color: #f4f8fa;
+
+    .contact_container {
+      margin: 40px 0;
+      background: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.09);
+
+      .contact_header {
+        font-size: 20px;
+        padding: 10px;
+        padding-left: 30px;
+        margin-bottom: 10px;
+        color: #2d3954;
+        border-bottom: 1px solid #e7eff9;
+        text-transform: uppercase;
+        font-weight: 600;
+      }
+      form {
+        padding: 15px 32px;
+      }
+      .form-group {
+        label{
+          text-transform: uppercase;
+          font-size: 14px;
+          font-weight: 500;
+        }
+        .form-control {
+          height: 54px;
+          border-radius: 4px;
+          font-size: 14px;
+          box-shadow: none;
+          padding: 8px 12px;
+          border: 1px solid #43c3ea;
+          background-clip: initial;
+        }
+        .textarea {
+          height: 100px;
+        }
+        .submit {
+          width: 100%;
+          background-color: #43c3ea;
+          color: #ffffff;
+          padding: 10px 12px;
+          margin-top: 16px;
+          text-transform: uppercase;
+          font-weight: 500;
+        }
+      }
+
+      .reachus_container {
+        padding: 15px 32px;
+        .reachus_title {
+          font-size: 20px;
+          color: #2d3954;
+          margin-bottom: 15px;
+          font-weight: 500;
+        }
+        .address {
+          font-size: 15px;
+          margin-bottom: 15px;
+        }
+        i {
+          color: #43c3ea;
+          padding-right: 5px;
+        }
+      }
+    }
+    .enquiry-faq-container {
+      margin-top: 140px;
+      .enquiry-header{
+        .faq_title{
+          font-size: 24px;
+          font-weight: 600;
+          margin-bottom: 10px;
+        }
+        .para{
+          font-size: 15px;
+          margin-bottom: 25px;
+        }
+      }
+      .enquiry-faq{
+        border-bottom: 2px solid #8b8b8b;
+        transition: all 0.3s linear;
+        margin-bottom: 20px;
+        .question{
+          display: flex;
+          justify-content: space-between;
+          transition: all 0.3s linear;
+          font-weight: 600;
+          font-size: 14px;
+          margin-bottom: 8px;
+          i{
+            color: #8b8b8b;
+          }
+        }
+        .answer{
+           font-size: 14px;
+          margin-bottom: 8px;
+          color: #8b8b8b;
+          transition: all 0.3s linear;
+        }
+      }
+    }
+  }
+}
