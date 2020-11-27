@@ -2153,10 +2153,20 @@ footer #button.show {
   font-size: 13px;
 }
 
+.blog-detail {
+  padding: 40px;
+}
+
 .blog-detail .products-detail {
+  -webkit-box-shadow: 0 0 20px 0 rgba(62, 28, 131, 0.1);
+          box-shadow: 0 0 20px 0 rgba(62, 28, 131, 0.1);
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   margin-bottom: 0px;
   padding-bottom: 0px;
+}
+
+.blog-detail .products-detail .image_container img {
+  width: 100%;
 }
 
 .blog-detail .products-detail .header {
@@ -2165,10 +2175,24 @@ footer #button.show {
 }
 
 .blog-detail .products-detail .header h1 {
+  padding: 20px;
+  color: #034a6a;
   font-size: 26px;
+  font-weight: 500;
+  margin-bottom: 0px;
 }
 
 .blog-detail .products-detail .details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0px 20px;
+  margin-bottom: 10px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -2177,10 +2201,23 @@ footer #button.show {
 
 .blog-detail .products-detail .details h2 {
   font-size: 14px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 0px;
 }
 
 .blog-detail .products-detail .para {
   padding: 40px 60px;
+  margin: 0px 20px;
+}
+
+.blog-detail .products-detail .para p {
+  text-align: justify;
+  color: rgba(0, 0, 0, 0.75);
+  line-height: 1.7;
+}
+
+.blog-detail .products-detail .line {
+  padding: 0px 5px;
 }
 
 .blog-detail .product-footer {
@@ -2210,6 +2247,48 @@ footer #button.show {
 .blog-detail .product-footer .share-list ul .text {
   text-transform: uppercase;
   font-size: 18px;
+}
+
+.blog-detail .side-header {
+  -webkit-box-shadow: 0 0 20px 0 rgba(62, 28, 131, 0.1);
+          box-shadow: 0 0 20px 0 rgba(62, 28, 131, 0.1);
+  border-radius: 3px;
+}
+
+.blog-detail .side-header .header {
+  padding: 15px 20px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  background-color: #2e2751;
+}
+
+.blog-detail .side-header .list {
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.blog-detail .side-header .list .image-container {
+  margin-right: 10px;
+}
+
+.blog-detail .side-header .list .text {
+  color: rgba(0, 0, 0, 0.75);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.blog-detail .side-header .list .text span a {
+  display: block;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 400;
+  font-size: 13px;
 }
 
 @media screen and (max-width: 576px) {
