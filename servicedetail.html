@@ -159,7 +159,7 @@
       </div>
     </div>
 
-   <nav>
+    <nav>
       <div class="navbar_container">
         <div class="navigation_links">
           <ul>
@@ -172,7 +172,7 @@
             <li><a href="contact.html">Contact</a></li>
           </ul>
         </div>
-       <div class="social_links">
+        <div class="social_links">
           <ul>
             <li>
               <a href=""><i class="fab fa-linkedin"></i></a>
@@ -189,7 +189,7 @@
             <li class="search">
               <a href=""><i id="search-icon" class="fas fa-search"></i></a>
             </li>
-            <input type="search" class="search-bar" placeholder="Search">
+            <input type="search" class="search-bar" placeholder="Search" />
           </ul>
         </div>
       </div>
@@ -317,10 +317,12 @@
                   <div class="rating_no">
                     <span> 4.5 </span> <small>out of 5</small>
                   </div>
-                  <div>
-                    <i class="fas fa-star"></i><i class="fas fa-star"></i
-                    ><i class="fas fa-star"></i><i class="fas fa-star"></i
-                    ><i class="fas fa-star"></i>
+                  <div id="rating_small" class="rating">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
                   </div>
                 </div>
                 <div class="second">
@@ -342,7 +344,7 @@
                         </div>
                       </div>
                       <div class="col-4">
-                        <div>458793</div>
+                        <div class="progress_no">458793</div>
                       </div>
                     </div>
                     <div class="row">
@@ -362,7 +364,7 @@
                         </div>
                       </div>
                       <div class="col-4">
-                        <div>458793</div>
+                        <div class="progress_no">8793</div>
                       </div>
                     </div>
                     <div class="row">
@@ -382,7 +384,7 @@
                         </div>
                       </div>
                       <div class="col-4">
-                        <div>11</div>
+                        <div class="progress_no">11</div>
                       </div>
                     </div>
                     <div class="row">
@@ -402,7 +404,7 @@
                         </div>
                       </div>
                       <div class="col-4">
-                        <div>0</div>
+                        <div class="progress_no">0</div>
                       </div>
                     </div>
                     <div class="row">
@@ -422,7 +424,7 @@
                         </div>
                       </div>
                       <div class="col-4">
-                        <div>0</div>
+                        <div class="progress_no">0</div>
                       </div>
                     </div>
                   </div>
@@ -438,8 +440,15 @@
                     placeholder="Your Name *"
                   />
                 </div>
-                <div class="form-group">
-                  <input type="file" class="form-control" />
+                <div class="custom-file">
+                  <input
+                    type="file"
+                    class="custom-file-input"
+                    id="customFile"
+                  />
+                  <label class="custom-file-label" for="customFile"
+                    >Upload Your Image</label
+                  >
                 </div>
                 <div class="form-group">
                   <textarea
@@ -452,11 +461,12 @@
                   ></textarea>
                 </div>
               </form>
-              <div class="star">
-                <i class="fas fa-star"></i><i class="fas fa-star"></i
-                ><i class="fas fa-star"></i><i class="fas fa-star"></i
-                ><i class="fas fa-star"></i>
-                <span>Very Good</span>
+              <div class="rating" id="rating_big">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
               </div>
               <div class="review_btn">
                 <a href="">Submit Review</a>
@@ -659,7 +669,7 @@
                 </div>
               </a>
             </div>
-             <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="col-sm-6 col-md-4 col-lg-3">
               <a href="category.html">
                 <div class="service_1">
                   <div class="trips_icon">
@@ -1063,6 +1073,22 @@
     ></script>
 
     <script src="assets/js/app.js" defer></script>
+    <script>
+      document.querySelector("#rating_small").addEventListener("click", function (e) {
+        let action = "add";
+        for (const span of this.children) {
+          span.classList[action]("active");
+          if (span === e.target) action = "remove";
+        }
+      });
+        document.querySelector("#rating_big").addEventListener("click", function (e) {
+        let action = "add";
+        for (const span of this.children) {
+          span.classList[action]("active");
+          if (span === e.target) action = "remove";
+        }
+      });
+    </script>
 
     <script>
       $(".owl-carousel").owlCarousel({

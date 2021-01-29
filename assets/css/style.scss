@@ -1553,7 +1553,6 @@ footer {
       .star {
         text-align: left;
         i {
-          color: #fe7d0c;
           margin-top: 10px;
           margin-right: 4px;
           font-size: 25px;
@@ -1782,6 +1781,7 @@ footer {
     .testimonial_box {
       margin: 20px 30px;
       .para {
+        position: relative;
         background-color: #ffffff;
         padding: 20px;
         text-align: justify;
@@ -2489,4 +2489,66 @@ footer {
       }
     }
   }
+}
+
+//latest update
+.progress_no {
+  display: flex;
+  justify-content: flex-end;
+}
+.custom-file {
+  text-align: start;
+  margin-bottom: 1rem;
+  .custom-file-label {
+    color: #777;
+  }
+}
+.custom-file-label::after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f07c  Browse" !important;
+}
+
+.star {
+  .checked {
+    color: #fe7d0c;
+  }
+}
+
+.para:after {
+  content: "";
+  position: absolute;
+  left: 30px;
+  bottom: -20px;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 20px solid transparent;
+
+  border-top: 20px solid #ffffff;
+}
+
+.rating {
+  font-size: 0;
+}
+.rating span {
+  font-size: 40px;
+}
+
+#rating_small {
+  margin-top: 5px;
+  span {
+    font-size: 16px;
+  }
+}
+
+.rating span::before {
+  content: "☆ ";
+}
+.rating span.active::before {
+  content: "★ ";
+  color: #fe7d0c;
+}
+.rating span:hover {
+  cursor: pointer;
 }
